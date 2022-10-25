@@ -3,7 +3,9 @@
   "include": [
     "**/*"
   ],
- 
+  "exclude": [
+    "node_modules/adonis-preset-ts/node_modules","node_modules/adonis-preset-ts/build"
+  ],
   "compilerOptions": {
     "outDir": "build",
     "rootDir": "./",
