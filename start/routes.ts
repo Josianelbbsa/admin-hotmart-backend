@@ -27,3 +27,5 @@ Route.get('/', async () => {
 Route.get('/healthz', () =>{
   return { result: 'all good' }
 })
+
+Route.get('/hotmart', 'HotmartController.index')
